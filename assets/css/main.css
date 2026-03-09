@@ -1,0 +1,170 @@
+/* ── Reset ────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+/* ── Tokens ───────────────────────────────────────────── */
+:root {
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  --text:    #111;
+  --muted:   #888;
+  --border:  #e8e8e8;
+  --accent:  #0057d9;
+  --bg:      #fff;
+  --max-w:   740px;
+}
+
+/* ── Base ─────────────────────────────────────────────── */
+html { font-size: 16px; }
+
+body {
+  font-family: var(--font);
+  line-height: 1.7;
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a { color: inherit; }
+
+/* ── Layout ───────────────────────────────────────────── */
+.container {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ── Header ───────────────────────────────────────────── */
+.site-header {
+  border-bottom: 1px solid var(--border);
+  padding: 20px 0;
+}
+
+.site-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-title {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+  color: var(--text);
+}
+
+.site-nav a {
+  font-size: 13px;
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.site-nav a:hover { color: var(--text); }
+
+/* ── Main ─────────────────────────────────────────────── */
+main.container { padding-top: 60px; padding-bottom: 80px; }
+
+/* ── Page header ──────────────────────────────────────── */
+.page-header {
+  margin-bottom: 44px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid var(--border);
+}
+
+.page-header h1 {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.25;
+  margin-bottom: 8px;
+}
+
+.page-header time {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+/* ── Page content ─────────────────────────────────────── */
+.page-content h2,
+.page-content h3,
+.page-content h4 {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.3;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+.page-content h2 { font-size: 20px; }
+.page-content h3 { font-size: 17px; }
+.page-content h4 { font-size: 15px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
+
+.page-content p { margin-bottom: 1em; font-size: 15px; }
+
+.page-content a {
+  color: var(--accent);
+  text-decoration: none;
+}
+.page-content a:hover { text-decoration: underline; }
+
+.page-content ul,
+.page-content ol {
+  padding-left: 1.4em;
+  margin-bottom: 1em;
+}
+.page-content li { font-size: 15px; margin-bottom: 0.3em; }
+
+.page-content strong { font-weight: 600; }
+
+/* ── Report list (index page) ─────────────────────────── */
+.report-list {
+  list-style: none;
+  padding: 0;
+}
+
+.report-list li {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.report-list li:first-child { border-top: 1px solid var(--border); }
+
+.report-list a {
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--text);
+  transition: color 0.15s;
+}
+
+.report-list a:hover { color: var(--accent); }
+
+.report-list .date {
+  font-size: 13px;
+  color: var(--muted);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* ── Index intro ──────────────────────────────────────── */
+.index-intro {
+  font-size: 15px;
+  color: var(--muted);
+  margin-bottom: 36px;
+}
+
+/* ── Footer ───────────────────────────────────────────── */
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: 24px 0;
+}
+
+.site-footer span {
+  font-size: 13px;
+  color: var(--muted);
+}

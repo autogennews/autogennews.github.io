@@ -2,7 +2,6 @@ title: Some AI aggregation reports
 description: Some AI aggregation reports
 baseurl: ""
 url: "https://autogennews.github.io"
-theme: minima
 
 exclude:
   - README.md
