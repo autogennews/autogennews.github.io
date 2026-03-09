@@ -1,0 +1,48 @@
+### Weekly Intelligence Briefing (March 2-8, 2026)
+
+#### 1. Major Developments in AI Agents
+- **New models**: OpenAI released GPT-5.4, scoring 57.7% on SWE-Bench Pro (software engineering), 82.7% on BrowseComp (reasoning), and 92.8% on GPQA Diamond (scientific knowledge); optimized for agentic workflows in engineering and research. Google's Gemini 3.1 Flash Lite delivers 2.5x faster responses at $0.25/M input tokens. Alibaba's Qwen 3.5 (0.8B-9B params) outperforms some 120B models on benchmarks, emphasizing efficiency for tool-using agents.[4]
+- **Framework updates**: No direct updates to LangChain/AutoGen/CrewAI, but multi-agent orchestration emphasized as 2026's top trend, with planner agents coordinating specialized teams for cross-checking and swarm computing.[3]
+- **Research breakthroughs**: Deep Research Agents emerge for autonomous data collection, fact verification, and insights; state-space models hybridize with transformers for agent backbones, improving long-context planning.[1][3]
+- **Enterprise case studies**: China's Five-Year Plan mandates AI agents in manufacturing/logistics/healthcare as "core infrastructure" with minimal human input; telecom firms predict 15% autonomous ops decisions by 2028 via agent layers.[2][4]
+- **Sources**: [1] https://www.usaii.org/ai-insights/top-5-ai-agent-trends-for-2026 | [2] https://aiagentstore.ai/ai-agent-news/daily/2026-03-06 | [3] https://www.youtube.com/watch?v=zt0JA5rxdfM | [4] https://www.youtube.com/watch?v=sckJvrOyJ80
+
+#### 2. Practical Engineering Insights
+- **Best practices**: Build networks of domain-specific agents (e.g., support/cybersecurity) over single tools; integrate multi-agent cross-checking for verifiable steps in production.[1][3]
+- **Orchestration patterns**: Three-layer AI-native OS (platform/agent/service) for telecom; planner agents + specialized swarms for collective intelligence.[3][4]
+- **Memory architectures**: Continuous learning loops with feedback/retraining in multi-agent setups; decentralized coordination for secure comms.[5]
+- **Evaluation techniques**: Focus on long-term behavior testing, simulation, and multi-step debugging at events like NVIDIA GTC.[6]
+- **Observability tools**: Agent risk modeling, fail-safes, and monitoring in enterprise frameworks.[5]
+- **Cost optimization**: Shift to small/high-density models like Qwen 3.5 for inference; low-cost options like Gemini Flash Lite.[4]
+- **Sources**: [1] https://www.usaii.org/ai-insights/top-5-ai-agent-trends-for-2026 | [3] https://www.youtube.com/watch?v=zt0JA5rxdfM | [4] https://www.youtube.com/watch?v=sckJvrOyJ80 | [5] https://blocsys.com/ai-agent-development-companies-2026/ | [6] https://langwatch.ai/blog/what-are-the-ai-agent-events-in-2026-the-must-attend-conferences-for-agentic-ai-builders
+
+#### 3. Enterprise & Management Insights
+- **Governance updates**: Governments eye AI as infrastructure post-China's plan; US pushes export controls for agentic leadership.[2][8]
+- **Security risks/mitigations**: OpenAI's Codex Security agent detects code vulns; blockchain-integrated agents for secure identity/comms; fail-safe mechanisms.[4][5]
+- **Organizational design**: Multi-agent teams mirror human structures; hire for custom architecture, orchestration, and integrations.[3][5]
+- **Change management**: Start with one agentic tool (e.g., Clay for sales) for quick wins before full adoption.[2]
+- **ROI measurement**: Track autonomy in ops (e.g., 15-30% decisions by 2028-2030); verticals like finance/healthcare lead with contract analysis/scheduling.[4][5]
+- **Build vs buy**: Buy sales tools (Salesforce Agentforce) for speed; build custom multi-agent for ops via firms like NeuraForge/Blocsys.[2][5]
+- **Sources**: [2] https://aiagentstore.ai/ai-agent-news/daily/2026-03-06 | [4] https://www.youtube.com/watch?v=sckJvrOyJ80 | [5] https://blocsys.com/ai-agent-development-companies-2026/ | [8] https://nationalinterest.org/blog/techland/the-agentic-ai-revolution-how-2026-will-reshape-technology-and-statecraft
+
+#### 4. Market Signals
+- **Startup activity**: AI agent dev firms (Blocsys, NeuraForge) specialize in multi-agent, blockchain integration, decentralized models; North America 41% market share, Asia-Pacific 49.5% CAGR.[5]
+- **Big tech shifts**: OpenAI/Google/Alibaba race on efficient agent models; China positions agents as national infrastructure.[2][4]
+- **Funding trends**: US projected $13B agent revenue by 2030 (43% CAGR); on-chain jobs platforms like Claw Earn for agent bounties.[2][5]
+- **Acquisitions**: None reported this week.
+- **Sources**: [2] https://aiagentstore.ai/ai-agent-news/daily/2026-03-06 | [5] https://blocsys.com/ai-agent-development-companies-2026/
+
+#### 5. Actionable Recommendations
+- **3 things to evaluate**:
+  - GPT-5.4 + Codex Security for engineering/research agents; benchmark vs internal workflows.[4]
+  - Multi-agent orchestration (e.g., planner + swarm) in a pilot for one department.[3]
+  - Low-cost models like Qwen 3.5/Gemini Flash for scalable tool-use.[4]
+- **2 risks to prepare for**:
+  - Geopolitical export controls disrupting model access; stockpile via approved providers.[8]
+  - Rapid competitor adoption of sales agents (e.g., Agentforce); audit workflows for quick integration.[2]
+- **1 strategic opportunity**: Prototype deep research agents for cross-dept analytics, leveraging China's infrastructure push for internal ROI proof.[1][2]
+
+### Emerging Ecosystem Patterns & Implications
+- **Patterns**: Multi-agent swarms over solo agents; efficiency via small dense models; national infrastructure mandates; blockchain/decentralized coordination for secure scaling.[1][3][4][5]
+- **For internal teams**: Accelerates production agents in ops/sales; prioritize orchestration for ROI, but integrate governance early to match enterprise maturity. Trend stage: **Early enterprise** (tools like Agentforce proven; architectures scaling in telecom/China).[2][4]
+- **Team skills to build**: Multi-agent design/orchestration; agent eval/simulation (attend GTC/AI DevWorld); secure integration (blockchain/observability); small-model fine-tuning.[3][5][6]
