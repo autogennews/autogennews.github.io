@@ -1,10 +1,10 @@
 ---
 layout: page
-title: AI News Reports
+title: AI agent intelligence briefings
 permalink: /ainews/
 ---
 
-<p class="index-intro">Weekly AI agent intelligence briefings.</p>
+<p class="index-intro">AI agent intelligence briefings.</p>
 
 {% assign ainews_pages = site.pages | where_exp: "p", "p.url contains '/ainews/'" | where_exp: "p", "p.url != '/ainews/'" | sort: "date" | reverse %}
 
