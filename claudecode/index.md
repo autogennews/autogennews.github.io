@@ -1,8 +1,10 @@
 ---
-layout: page
+layout: home
 title: Claude Code News
 permalink: /claudecode/
 ---
+
+<h1 class="home-title">Claude Code News</h1>
 
 {% assign claudecode_pages = site.pages | where_exp: "p", "p.url contains '/claudecode/'" | where_exp: "p", "p.url != '/claudecode/'" | sort: "date" | reverse %}
 

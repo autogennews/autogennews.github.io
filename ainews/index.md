@@ -1,8 +1,10 @@
 ---
-layout: page
+layout: home
 title: Agentic AI News
 permalink: /ainews/
 ---
+
+<h1 class="home-title">Agentic AI News</h1>
 
 {% assign ainews_pages = site.pages | where_exp: "p", "p.url contains '/ainews/'" | where_exp: "p", "p.url != '/ainews/'" | sort: "date" | reverse %}
 
