@@ -3,22 +3,9 @@ layout: home
 title: Home
 ---
 
-<p class="home-intro">Automated reports.</p>
+<h1 class="home-title">Pick Your Poison</h1>
 
-<div class="home-sections">
-
-  <section class="home-section">
-    <div class="home-section-header">
-      <h2><a href="/ainews/">AI agent intelligence briefings.</a></h2>
-    </div>
-    <p class="home-section-desc">AI agent intelligence briefings.</p>
-  </section>
-
-  <section class="home-section">
-    <div class="home-section-header">
-      <h2><a href="/claudecode/">Claude Code Updates.</a></h2>
-    </div>
-    <p class="home-section-desc">Claude Code Updates.</p>
-  </section>
-
-</div>
+<ul class="home-nav">
+  <li><a href="/ainews/">AI News</a></li>
+  <li><a href="/claudecode/">Claude Code Updates</a></li>
+</ul>

@@ -218,6 +218,31 @@ main.container { padding-top: 60px; padding-bottom: 80px; }
   margin-bottom: 36px;
 }
 
+/* ── Home ─────────────────────────────────────────────── */
+.home-title {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  margin-bottom: 32px;
+}
+
+.home-nav {
+  list-style: none;
+  padding: 0;
+}
+
+.home-nav li { padding: 10px 0; border-bottom: 1px solid var(--border); }
+.home-nav li:first-child { border-top: 1px solid var(--border); }
+
+.home-nav a {
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--text);
+}
+
+.home-nav a:hover { color: var(--accent); }
+
 /* ── Home sections ────────────────────────────────────── */
 .home-intro {
   font-size: 16px;
