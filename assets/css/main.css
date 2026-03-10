@@ -70,9 +70,9 @@ main.container { padding-top: 60px; padding-bottom: 80px; }
 
 /* ── Page header ──────────────────────────────────────── */
 .page-header {
-  margin-bottom: 44px;
+  margin-bottom: 0;
   padding-bottom: 28px;
-  border-bottom: 1px solid var(--border);
+  border-bottom: none;
 }
 
 .page-header h1 {
